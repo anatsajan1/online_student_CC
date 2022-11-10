@@ -1,0 +1,110 @@
+body
+{
+        margin: 0;
+        padding: 0;
+        background:url(bus2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: bold;
+        justify-content: center;
+        position: relative;
+ }
+.regform{
+    width: auto;
+    height: auto;
+    background:rgb(7, 7, 7);
+    color: white;
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 20px 60px;
+}
+
+.user{
+  width: 100px;
+  height: 100px;
+  border-radius:50% ;
+  position: absolute;
+  top: -50px;
+  left:calc(50% - 50px);
+
+}
+ 
+
+h1{
+  margin: 0;
+  padding: 35px 0 20px;
+  text-align: center;
+  font-size: 22px;
+
+}
+
+.regform p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+ }
+
+.regform input{
+   width: 100%;
+   margin-bottom: 20px;
+
+ }
+
+.regform input[type="text"], input[type="password"]
+ {
+    border: none;
+    border-bottom: 1px solid rgb(173, 26, 26);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+ }
+
+.regform input[type="submit"]
+ {
+   border:none;
+   outline: none;
+   height: 40px;
+   background: red;
+   color: #fff;
+   font-size: 18px;
+   border-radius:20px;
+ }
+ 
+ 
+button
+ {
+   border:none;
+   align-self: center;
+   outline: none;
+   height: 40px;
+   width: 117px;
+   background: red;
+   color: #fff;
+   font-size: 18px;
+   border-radius:20px;
+ }
+ 
+.regform input[type="submit"]:hover
+ {
+   cursor:pointer;
+   background: #ffc107;
+   color:#fff;
+   
+ }
+.regform a{
+   text-decoration: none;
+   font-size: 12px;
+   line-height: 20px;
+   color:rgba(248, 240, 243, 0.966);
+
+ }
+.regform a:hover
+ {
+   color: #ffc107;
+ }
